@@ -1,0 +1,465 @@
+.header_mein {
+    max-width: 1240px;
+    min-height: 505px;
+    margin-top: 109px;
+    margin-left: 100px;
+    display: flex;
+
+    .header_mein_txt {
+        h1 {
+            width: 610px;
+            height: 119px;
+            font-weight: 600;
+            font-size: 52px;
+            line-height: 65px;
+            color: #363738;
+            font-family: "Exo 2", sans-serif;
+        }
+
+        p {
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 40px;
+            color: #6B6B6C;
+        }
+
+        h3 {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 40px;
+            color: #363738;
+        }
+    }
+
+    .header_mein_img {
+        width: 635px;
+        height: 505px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header_mein_txt {
+        h1 {
+            font-family: "Exo 2", sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-family: "PT Sans", sans-serif;
+            width: 690px;
+            height: 65px;
+            margin-top: 49px;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: "Exo 2", sans-serif;
+            margin-top: 44px;
+        }
+
+        .hr_h3 {
+            width: 105px;
+            height: 27px;
+            margin: auto;
+        }
+    }
+
+    .header_mein_img img {
+        background-image: url(../header_mein.png);
+        width: 690px;
+        height: 314px;
+        margin-top: 403px;
+        margin-left: -700px;
+        background-size: cover;
+    }
+
+    .header_mein_img {
+        padding: 0px 10px;
+    }
+
+}
+
+.cards {
+    max-width: 1240px;
+    min-height: 341px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 67px;
+    margin-left: 100px;
+
+
+    .card1 {
+        width: 228px;
+        height: 245px;
+        margin: auto;
+        padding: 15px;
+
+        h3 {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: #363738;
+        }
+
+        p {
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6B6B6C;
+        }
+
+    }
+
+    .divider {
+        width: 1px;
+        background-color: #dcdcdc;
+        height: 100%;
+        margin: 0 55px;
+        align-self: stretch;
+        gap: 30px;
+    }
+}
+
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 97px;
+
+    .main__img {
+        background-image: url(../Rectangle\ 7.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 453px;
+
+        .yashilimg {
+            img {
+                display: none;
+            }
+        }
+
+        img {
+            position: absolute;
+            max-width: 100%;
+        }
+
+        h1 {
+            max-width: 700px;
+            position: relative;
+            padding: 200px;
+            font-family: "Exo 2", sans-serif;
+            font-weight: 600;
+            font-size: 48px;
+            color: #ffffff;
+            padding-top: 160px;
+            padding-left: 80px;
+            font-family: "Exo 2", sans-serif;
+        }
+    }
+}
+
+
+@media screen and (max-width:763px) {
+    .main .main__img h1 {
+        max-width: 500px;
+        font-weight: 600;
+        font-size: 44px;
+    }
+
+    .main .main__img {
+        background-image: url(../images/main1.img2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 383px;
+    }
+
+    .main .main__img img {
+        display: none;
+    }
+
+    .main .main__img .yashilimg img {
+        display: block;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .main {
+        display: none;
+    }
+}
+
+.carts2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+
+    .cart1 {
+        width: 447px;
+        height: 80px;
+        margin-top: 72px;
+
+        .img_text {
+            width: 447px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .teglar {
+                align-items: center;
+
+                h4 {
+                    font-family: "Exo 2", sans-serif;
+                    width: 327px;
+                    height: 21px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #363738;
+                    align-items: center;
+                }
+
+                p {
+                    font-family: "PT Sans", sans-serif;
+                    width: 291px;
+                    height: 41px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6B6B6C;
+                    align-items: center;
+
+
+                }
+            }
+
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+
+
+    }
+
+
+
+}
+
+
+
+.our_works {
+    max-width: 1239px;
+    min-height: 618px;
+    margin-left: 100px;
+    margin-top: 120px;
+
+    h1 {
+        font-weight: 600px;
+        font-size: 48px;
+        line-height: 60px;
+        color: #363738;
+        font-family: "Exo 2", sans-serif;
+    }
+
+    p {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6B6B6C;
+        margin-top: 32px;
+    }
+
+    .cards3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 56px;
+        gap: 30px;
+
+        .cart1 {
+            width: 393px;
+            height: 439px;
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158);
+
+            img {
+                width: 393px;
+                height: 247px;
+                border-radius: 20px;
+            }
+
+            h3 {
+                font-family: "Exo 2", sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                color: #363738;
+                margin-left: 32px;
+            }
+
+            p {
+                font-family: "PT Sans", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-left: 32px;
+            }
+
+            span {
+                font-family: "PT Sans", sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 21px;
+                color: #363738;
+                margin-left: 32px;
+            }
+
+
+        }
+
+
+
+
+    }
+
+    .steps {
+        max-width: 1183px;
+        min-height: 245px;
+        margin: auto;
+
+        .cards4 {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 40px;
+
+            .cart_taklif {
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+                margin-top: 24px;
+                border-radius: 20px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158);
+
+                .taklif_teksti {
+                    h3 {
+                        font-family: "Exo 2", sans-serif;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #363738;
+                    }
+
+
+                }
+            }
+
+            .cart_dastavka {
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+                margin-top: 24px;
+                border-radius: 20px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158);
+
+                .dastavka_teksti {
+                    h3 {
+                        font-family: "Exo 2", sans-serif;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #363738;
+                    }
+
+                }
+            }
+
+            .cart_ustanovka {
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+                margin-top: 24px;
+                border-radius: 20px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158);
+
+                .ustanovka_teksti {
+                    h3 {
+                        font-family: "Exo 2", sans-serif;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #363738;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.group1127 {
+    max-width: 1243px;
+    min-height: 667px;
+    margin-left: 95px;
+}
+
+.footer_qismi {
+    max-width: 1540px;
+    min-height: 365px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #0B7572;
+
+    h1 {
+        font-family: "Exo 2", sans-serif;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 90px;
+        letter-spacing: 16%;
+        color: #FFFFFF;
+        margin-left: 95px;
+        margin-top: 59px;
+    }
+
+    .gurux1 {
+        margin-top: 80px;
+    }
+
+    .gurux2 {
+        margin-top: 80px;
+    }
+
+    .gurux3 {
+        margin-top: 80px;
+
+        .ichtimoiy_trmoqlar {
+            display: flex;
+            gap: 15px;
+        }
+
+        span {
+            margin-top: 32px;
+        }
+    }
+}
